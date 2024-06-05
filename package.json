@@ -1,0 +1,21 @@
+{
+  "name": "behavior-driven-tests",
+  "version": "1.0.0",
+  "description": "This example shows how you can run Tracetest injecting secrets in a Github Action pipeline.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "*",
+    "@types/cucumber": "^7.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@tracetest/client": "^0.0.39"
+  }
+}
